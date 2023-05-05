@@ -7,7 +7,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.20.37
+IP 158.160.20.37
 
 Frontend https://mymesto.nomoredomains.monster
 
