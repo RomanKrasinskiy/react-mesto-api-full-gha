@@ -1,0 +1,10 @@
+.popup__info-img {
+    background-image: url(/src/images/InfoRegistrationIcon.svg);
+    width: 120px;
+    height: 120px;
+    display: block;
+    padding: 0 0 32px 0;
+    margin: auto;
+    background-repeat: no-repeat;
+
+}

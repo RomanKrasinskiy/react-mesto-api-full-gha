@@ -1,0 +1,10 @@
+.element__place {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    min-height: 80px;
+    border-radius: 0 0 10px 10px;
+    padding-left: 20px;
+}

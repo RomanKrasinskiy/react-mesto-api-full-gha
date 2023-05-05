@@ -1,0 +1,19 @@
+.page__header {
+	width: 100%;
+	padding-bottom: 41px;
+	margin: 45px auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+@media (max-width: 680px) {
+	.page__header {
+		margin-top: 28px;
+	}
+}
+@media (max-width: 320px) {
+	.page__header {
+		max-width: 320px;
+		padding-bottom: 31.6px;
+		margin-top: 28px;
+	}
+}

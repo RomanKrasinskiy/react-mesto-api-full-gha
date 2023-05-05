@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+    .popup__close-ico {
+      height: 20px;
+      width: 20px;
+    }
+  }

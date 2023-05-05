@@ -1,0 +1,9 @@
+.profile__caption {
+    max-width: 100%;
+    min-height: 100%;
+    border-radius: 50%;
+    background: url(../../../images/pencilProfile.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: profile__photo;
+}

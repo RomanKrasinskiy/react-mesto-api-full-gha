@@ -1,0 +1,8 @@
+.element__photo {
+    height: 282px;
+    width: 282px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    cursor: pointer;
+}

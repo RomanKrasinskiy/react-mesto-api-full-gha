@@ -1,0 +1,26 @@
+.profile__about-user {
+	margin: 7px 0 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	grid-area: profile__about-user;
+}
+
+@media (max-width: 960px) {
+	.profile__about-user {
+		margin: -15px 0 0;
+	}
+}
+
+@media (max-width: 680px) {
+	.profile__about-user {
+		font-size: 14px;
+		margin: 14px auto 0;
+		line-height: 17px;
+		text-align: center;
+	}
+}

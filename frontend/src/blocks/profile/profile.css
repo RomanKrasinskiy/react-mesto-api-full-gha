@@ -1,0 +1,37 @@
+.profile {
+    margin: 0px auto;
+    display: grid;
+    max-width: 880px;
+    grid-template-areas:
+    "profile__photo profile__user-name edit-button add-button"
+    "profile__photo profile__about-user edit-button add-button";
+    grid-template-columns: 150px 312px 1fr 150px;
+	grid-template-rows: 72px 1fr;
+}
+@media (max-width: 960px) {
+	.profile {
+		grid-template-areas: 
+		"profile__photo profile__user-name edit-button"
+		"profile__photo profile__about-user edit-button"
+		"add-button add-button add-button";
+		grid-template-columns: 150px 312px 1fr;
+		grid-template-rows: 90px 30px 70px;
+		max-width: 581px;
+		height: 190px;
+	}
+}
+
+
+@media (max-width: 680px) {
+	.profile {
+		width: 282px;
+		min-height: 286px;
+		grid-template-areas: 
+		"profile__photo profile__photo profile__photo"
+		"null profile__user-name edit-button"
+		"profile__about-user profile__about-user profile__about-user"
+		"add-button add-button add-button";
+		grid-template-columns: 1fr 189px 1fr;
+		grid-template-rows: 120px 1fr 1fr 50px;
+	}
+}

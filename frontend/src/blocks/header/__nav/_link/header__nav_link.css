@@ -1,0 +1,16 @@
+.header__nav_link {
+    align-self: center;
+    cursor: pointer;
+	color: white;
+	text-decoration: none;
+	border: none;
+    background-color: black;
+	opacity: 0.6;
+	transition-property: opacity;
+	transition-duration: 0.7s;
+}
+.header__nav_link:hover {
+    opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0.7s;
+}

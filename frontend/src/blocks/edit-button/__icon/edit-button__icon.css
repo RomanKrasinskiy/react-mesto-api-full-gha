@@ -1,0 +1,10 @@
+.edit-button__icon {
+	width: 10px;
+	margin: auto;
+}
+
+@media (max-width: 680px) {
+	.edit-button__icon {
+		width: 7.5px;
+	}
+}

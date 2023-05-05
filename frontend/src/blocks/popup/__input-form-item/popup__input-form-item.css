@@ -1,0 +1,19 @@
+.popup__input-form-item {
+    position: relative;
+    margin: 54px 0 0 0;
+}
+.popup__input-form-item:first-of-type {
+    margin: 54px 0 0 0;
+}
+.popup__input-form-item:last-of-type {
+    margin: 0 0 18px 0;
+}
+@media (max-width: 600px) {
+
+    .popup__input-form-item:first-of-type {
+        margin: 75px 0 0 0;
+    }
+    .popup__input-form-item:last-of-type {
+        margin: 0 0 15px 0;
+    }
+}
