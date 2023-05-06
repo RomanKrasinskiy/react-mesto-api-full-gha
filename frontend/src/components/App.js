@@ -159,7 +159,8 @@ function App() {
     } else {
       auth
         .checkToken(jwt)
-        .then(() => {
+        .then((res) => {
+          setUserEmail(res.email);
           setLoggedIn(true);
           navigate("/");
         })

@@ -1,4 +1,5 @@
 require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 const { errors, celebrate, Joi } = require('celebrate');
@@ -66,11 +67,13 @@ app.post('/signup', celebrate({
 
 app.use('/users', auth, userRouter);
 app.use('/cards', auth, cardRouter);
-app.use('*', (req, res, next) => next(new NotFoundError('По указанному url ничего нет.')));
+app.use('*', auth, (req, res, next) => next(new NotFoundError('По указанному url ничего нет.')));
 
 app.listen(PORT, () => {
   console.log('Сервер работает');
 });
+
+console.log(process.env.NODE_ENV);
 
 app.use(errorLogger);
 app.use(errors());
