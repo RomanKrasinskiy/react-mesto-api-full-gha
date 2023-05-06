@@ -1,5 +1,5 @@
-// const baseURL = 'https://api.mymesto.nomoredomains.monster';
-const baseURL = 'http://localhost:3000';
+const baseURL = 'https://api.mymesto.nomoredomains.monster';
+// const baseURL = 'http://localhost:3000';
 
 
 export const apiConfig = {
