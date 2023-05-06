@@ -73,8 +73,6 @@ app.listen(PORT, () => {
   console.log('Сервер работает');
 });
 
-console.log(process.env.NODE_ENV);
-
 app.use(errorLogger);
 app.use(errors());
 app.use(centralizedErrorHandling);
