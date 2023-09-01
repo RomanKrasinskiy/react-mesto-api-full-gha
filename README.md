@@ -5,7 +5,7 @@
 
 Адрес репозитория: https://github.com/RomanKrasinskiy/react-mesto-api-full-gha
 
-## Ссылки на проект
+## Ссылки на проект (Временно не активны)
 
 IP 84.252.141.193
 
