@@ -17,7 +17,7 @@ Backend https://api.mymesto.nomoredomains.monster
 
 1. Склонировать проект на ваш компьютер с [Github](https://github.com/RomanKrasinskiy/react-mesto-api-full-gha.git) с помощью команды:
 ```
-git clone git@github.com:FilimonovAlexey/react-mesto-api-full.git
+git clone git@github.com:RomanKrasinskiy/react-mesto-api-full-gha.git
 ```
 2. Установить зависимости:
 ```
